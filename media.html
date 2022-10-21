@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
-<div>
-    <h1>Média de notas!</h1>  
+    <div id="titulo"><h1>Média de notas!</h1></div>
+   
+<div class="notas"> 
     <p1>Nome do aluno</p1> <br>
     <input type="text" id="nome"><br>
     <p1> Nota da primeira prova:</p1> <br>
@@ -23,19 +24,13 @@
 </div>
 <div class="pesos">
     <h2>Pesos das provas</h2>
-    <input type="number" placeholder="Peso prova 1 " id="peso1">
-    <input type="number" placeholder="Peso prova 2 " id="peso2">
-    <input type="number" placeholder="Peso Trabalho " id="pesot">   
-</div>    
-<div id="res">
-    
-    <button onclick="calcular()">Calcular</button>  
-
-    <ul id="lista">
-
-    </ul>
-</div>    
-
+    <input type="number" placeholder="Peso prova 1 " id="peso1"><br><br>
+    <input type="number" placeholder="Peso prova 2 " id="peso2"><br><br>
+    <input type="number" placeholder="Peso Trabalho " id="pesot"><br><br> <br>
+    <button onclick="calcular()">Calcular</button>   
+</div>
+   
+<div id="res"> </div>    
 <script src="media.js"></script>  
 </body>
 </html>

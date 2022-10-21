@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(255, 0, 255, 0.136);
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "notas res"
+    "pesos res"
+}
+#titulo {
+    color:deeppink;
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 18%;
+    
+}
+.notas{
+    grid-area:notas;
+    border: 5px solid purple;
+    margin-top:100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left:30px;
+    text-align: center;
+
+}
+.pesos{
+    grid-area:pesos;
+    border: 5px solid purple;
+    margin-top:100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left:30px;
+    text-align:center;
+}
+#res{
+    grid-area:res;
+    border: 5px solid purple;
+    margin-top:100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left:30px;
+    height: 500px;
+    text-align: center;
+    
+}
+

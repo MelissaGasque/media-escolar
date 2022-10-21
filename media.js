@@ -20,10 +20,10 @@ function calcular(){
     media = (((p1*n1)+ (p2*n2) +(pt*n3))/(p1+p2+pt)).toFixed(2)
 
     if(media<6){
-     res.innerHTML += `<li> ${nome}; ${media}; <strong> Reprovado </strong> </li>`
+     res.innerHTML += `<li> ${nome}; Media ${media}; <strong> Reprovado </strong> </li>`
     } else
     if(media=>6){
-        res.innerHTML += `<li> ${nome}; ${media}; <strong> Aprovado </strong> </li>`
+        res.innerHTML += `<li> ${nome}; Media ${media}; <strong> Aprovado </strong> </li>`
     }
     document.getElementById("nome").value = null
     document.getElementById("num1").value = null
